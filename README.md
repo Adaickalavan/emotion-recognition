@@ -11,22 +11,6 @@ This repository contains machine learning model to recognise human facial expres
 + neutral
 
 ## System design
-
-graph LR
-A[Webcam] -->B(OpenCV)
-B --> C(Detect faces using Haar Cascade)
-C --> D(Convert faces to 48px48p grayscale)
-D --> E(Neural network)
-E --> F{7-way softmax}
-F -->|0| G[Angry]
-F -->|1| H[Disgust]
-F -->|2| I[Fear]
-F -->|3| J[Happy]
-F -->|4| K[Sad]
-F -->|5| L[Surprise]
-F -->|6| M[Neutral]
-
-
 The system captures RGB images from the camera. Input image can be of any size greater than 48x48 pixels. A Haar Cascade is used to detect the faces in the image. Each detected face is cropped and converted to a grayscale image of size 48x48 pixel. The cropped faces are fed into the following neural network structure, which outputs the probability of each facial expression for each detected face.
 
 <img src="./assets/images/tfsemonet_01.jpg" />

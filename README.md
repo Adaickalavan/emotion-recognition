@@ -41,3 +41,5 @@ The TensorFlow saved model signature is as follows:
 1. A sample output of the emotion recognition program is shown below.
 
     <img src="./assets/images/emotion_recognition_01.jpg" />
+
+1. View the Sphinx code documentation by browsing `/doc/_build/html/index.html` in your web browser.    

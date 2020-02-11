@@ -22,11 +22,11 @@ The TensorFlow saved model signature is as follows:
 ## Instructions to run
 1. First, clone the repository into your local machine
     ```bash
-    $ git clone http://137.40.71.211/adaickalavan.meiyappan/emotion-recognition
+    $ git clone https://github.com/Adaickalavan/emotion-recognition
     ```
 1. Set the `ROOT` variable in `.env` file to point to the root directory of this repository. Set the `VIDEO` variable in `.env` file to the webcam port number. For example,
     ```.env
-    ROOT = /home/user/go/src/137.40.71.211/emotion-recognition/
+    ROOT = /home/user/go/src/github.com/Adaickalavan/emotion-recognition/
     VIDEO = 0
     ```
 1. Install the necessary python libraries

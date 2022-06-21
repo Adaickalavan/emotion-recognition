@@ -1,5 +1,5 @@
 matplotlib==3.1.1
 tensorflow==2.0.3
-numpy==1.17.2
+numpy==1.22.0
 opencv_python==4.1.0.25
 python-dotenv==0.10.3
